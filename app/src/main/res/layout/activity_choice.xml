@@ -19,15 +19,19 @@
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/desiredleaguebg" />
 
-    <Button
+    <ToggleButton
         android:id="@+id/button_women"
+        android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
-        android:layout_width="match_parent"
         android:layout_marginEnd="10dp"
+        android:background="@drawable/swoosh_toggle"
         android:text="Women"
-        app:backgroundTint="#D2140E0E"
+        android:textOff="womens"
+        android:textColor="@color/white"
+        android:textOn="womens"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,29 +62,37 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
 
-    <Button
+    <ToggleButton
         android:id="@+id/button_men"
         android:layout_width="match_parent"
         android:layout_height="55dp"
+        android:textColor="@color/white"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="92dp"
-
+        android:layout_marginTop="80dp"
         android:layout_marginEnd="10dp"
+        android:background="@drawable/swoosh_toggle"
         android:text="Mens"
-        app:backgroundTint="#D2140E0E"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:textOff="MENS"
+        android:textOn="MENS"
 
-    <Button
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:toggleCheckedStateOnClick="false" />
+
+    <ToggleButton
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="10dp"
+        android:background="@drawable/swoosh_toggle"
         android:text="Co-ED"
-        app:backgroundTint="#D2140E0E"
+        android:textColor="@color/white"
+        android:textOff="CO-EDs"
+        android:textOn="CO-ED"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"

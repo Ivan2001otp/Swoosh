@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Swoosh/app/src/main/res/drawable/btn_drawable.xml" value="0.188" />
+        <entry key="..\:/Swoosh/app/src/main/res/drawable/swoosh_checked.xml" value="0.214" />
+        <entry key="..\:/Swoosh/app/src/main/res/drawable/swoosh_toggle.xml" value="0.214" />
         <entry key="..\:/Swoosh/app/src/main/res/layout/activity_choice.xml" value="0.22239583333333332" />
         <entry key="..\:/Swoosh/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
